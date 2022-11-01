@@ -7,17 +7,6 @@ export default function Form(){
     return (
         <>
         <Frm>
-            <div className="textMontserrat" id="titleForm">
-                <div className="titleVacina">
-                    <h1 id="titleVacina">
-                        Formulário para cadastro de vacinação 
-                    </h1>
-                </div>
-
-                <div id="agulha">
-                    <img src={agulha}  style={{width: 30 + 'px'}} />
-                </div>
-            </div>
             <div className="textMontserrat" id="subtitlePag2">
                 <h2>
                     Informações pessoais
@@ -71,13 +60,6 @@ export default function Form(){
                         <option value="SE">Sergipe</option>
                         <option value="TO">Tocantins</option>
                     </select>
-                    <div id="check">
-                        <input type="checkbox" required/>
-                        <p className="textMontserrat">&nbsp;Concordo com os termos...</p>
-                    </div>
-                    <button className="enviar" formAction="/AposForm"> 
-                        ENVIAR 
-                    </button>
                 </form>
             </div>
         </Frm>

@@ -4,25 +4,11 @@ import agulha from "../../Pages/TrabalhoHtmlCss/src/img/agulha.png";
 import { AposFrm } from "./Styled";
 
 export default function Home(){
+
+
     return (
         <>
         <AposFrm>
-            <div className="textMontserrat" id="titleForm">
-                <div className="titleVacina">
-                    <h1 id="titleVacina">
-                        Formulário para cadastro de vacinação 
-                    </h1>
-                </div>
-        
-                <div id="agulha">
-                    <img src={agulha}  style={{width: 30 + 'px'}} />
-                </div>
-            </div>
-            <div className="textMontserrat" id="subtitlePag2">
-                <h2>
-                    Informações complementares
-                </h2>
-            </div>
             <div className="formularios">
                 <form className="inputFormulario">
                     <p id="numberCEP" className="textMontserrat campos-formulario">CEP<span className="starRed">*</span></p>
@@ -45,9 +31,7 @@ export default function Home(){
                 
                     <p id="numberOpcaoEscolhida" className="textMontserrat campos-formulario">Se sim, quais?</p>
                     <input type="text" id="inputDebilitacao" className="inputs"/>
-                    <button className="enviar" formAction="/FimForm"> 
-                        ENVIAR 
-                    </button>
+
                 </form>
             </div>
         </AposFrm>

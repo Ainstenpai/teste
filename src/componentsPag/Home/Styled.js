@@ -5,11 +5,12 @@ export const HomePag = styled.div`
     color: #3757b1;
     margin: auto;
     display: flex;
+    
 }
 #titleForm{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 .textMontserrat{
     font-family: 'Montserrat', sans-serif;
@@ -18,11 +19,15 @@ h2{
     margin-bottom: 0;
     font-weight: 600;
     font-size: 22px;
+    text-align: center;
 }
 #textSobre{
     margin-top: 15px;
     margin-bottom: 0px;
-    font-size: min(18px, 1.5vw)
+    font-size: min(18px, 1.5vw);
+    text-align: center;
+    width: 60%;
+    margin: 15px auto;
 }
 #zoa{
     margin-top: 10px;
@@ -30,23 +35,9 @@ h2{
     color: #e0e0e0;
     font-size: 10px;
     text-transform: uppercase;
+    text-align: center;
 }
-#cadastro{
-    margin-bottom: 0;
-}
-ul{
-    padding-left: 20px;
-    margin-top: 5px;
-}
-a {
-    text-decoration: none;
-    color: #3757b1;
-    
-}
-a:hover {
-    text-decoration: none;
-    color: #193581;
-}
+
 @media (max-width:768px){
     h2{
         text-align: center;

@@ -5,14 +5,6 @@ export default function Home(){
     return (
         <>
         <MdlPag>
-            <div className="textMontserrat" id="titleForm">
-                <div className="titleVacina">
-                    <h1 id="titleVacina">
-                        Cadastro
-                    </h1>
-                    <hr style={{width: 100 + '%' }}/>
-                </div>
-            </div>
             <div className="textMontserrat">
                 <h2>
                     <u>Para iniciar o processo</u>
@@ -40,16 +32,6 @@ export default function Home(){
                     </li>
                 </ul>
             </div>
-            <form >
-                <div className="textMontserrat">
-                    <input type="checkbox" required /> Estou com todos os documentos em mãos
-                </div>
-                <div>
-                    <button className="enviar" formAction="/Form">
-                      Começar 
-                    </button>
-                </div>
-            </form>
         </MdlPag>
         </>
     )

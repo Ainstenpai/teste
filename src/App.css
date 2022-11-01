@@ -10,11 +10,53 @@ main{
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(117, 114, 114);
 }
+.enviar{
+    background-color: #3757b1;
+    color: #FFFFFF;
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    margin: auto;
+    font-family: 'Prosto One', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 20%;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.enviar:hover{
+    cursor: pointer;
+    background-color: #112b75;
+}
+#mostratudo{
+    display: none;
+}
+#titleVacina{
+    color: #2e9236;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+#titleForm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 @media (max-width:768px){
     main{
         margin: 20px 20px 20px 20px;
         background-color: #FFFFFF;
         border-radius: 10px;
         box-shadow: 10px 5px 5px rgb(117, 114, 114);
+    }
+    .enviar{
+        width: 70%;
+        font-size: min(16px, 3vw);
     }
 }

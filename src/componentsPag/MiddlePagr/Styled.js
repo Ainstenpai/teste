@@ -1,15 +1,16 @@
 import styled from 'styled-components'
 
 export const MdlPag = styled.div`
+
 #titleVacina{
     color: #3757b1;
     margin: auto;
     display: flex;
+    text-align: center;
 }
 #titleForm{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: center;
 }
 #imgCRUZ{
     margin-left: 10px;
@@ -22,10 +23,12 @@ h2{
     margin-bottom: 5px;
     font-weight: 600;
     font-size: 22px;
+    text-align: center;
 }
 #textSobre{
     margin-top: 5px;
     margin-bottom: 20px;
+    text-align: center;
 }
 #zoa{
     margin-top: 10px;
@@ -39,7 +42,8 @@ h2{
 }
 ul{
     padding-left: 20px;
-    margin-top: 5px;
+    margin: auto;
+    width: 48%;
 }
 li{
     margin-bottom: 10px;

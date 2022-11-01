@@ -12,16 +12,38 @@ import './Form.css';
 
 
 export default function App(){
+
+  function click(){
+    document.getElementById('corpo').style.display="none"
+    document.getElementById('mostratudo').style.display="block"
+    
+  }
+
+
   return (
     <>
-      <header>
+      <header >
         <Navbar />
       </header>
-      <main>    
-        <Home/> 
-        <MiddlePag/> 
-        <Form/> 
-        <AposForm/>        
+      <main >
+        <div id="corpo">   
+          <Home/> 
+          <MiddlePag/> 
+          <Form/> 
+          <AposForm/>
+          <button className="enviar" onClick={click}> 
+              ENVIAR 
+          </button>
+        </div>
+        <div id="mostratudo">
+          <div className="textMontserrat" id="titleForm">
+            <div className="titleVacina">
+              <h1 id="titleVacina">
+                  Formulário enviado, aguarde nosso e-mail de confirmação
+              </h1>
+            </div>
+          </div>
+        </div>     
       </main>
     </>
   )

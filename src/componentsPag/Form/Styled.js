@@ -21,6 +21,7 @@ h2{
 #subtitlePag2{
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 #agulha{
     margin-left: 10px;

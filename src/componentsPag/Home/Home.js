@@ -25,20 +25,6 @@ export default function Home(){
                         Na verdade isso é uma simulação de página, quase enganei vocês. da nota 10 ai Ben Tennyson kkkkkk
                     </p>
                 </div>
-                <div>
-                    <p className="textMontserrat" id="cadastro">
-                        Para iniciar seu cadastro, clique na opção "Cadastro" abaixo:
-                    </p>
-                </div>
-                <div>
-                    <ul className="textMontserrat">
-                        <li>
-                            <a href="./MiddlePage">
-                                Cadastro
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </HomePag>
         </>
     )

@@ -27,7 +27,7 @@ h2{
 }
 
 .formularios{
-    width: 40%;
+    width: 50%;
     margin: auto;
     margin-top: 30px;
 }
@@ -66,27 +66,7 @@ h2{
     font-weight: 500;
     color: #2b4a9e;
 }
-#enviar{
-    background-color: #3757b1;
-    color: #FFFFFF;
-    height: 55px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: none;
-    border-radius: 30px;
-    margin: auto;
-    font-family: 'Prosto One', sans-serif;
-    text-transform: uppercase;
-    font-size: 16px;
-    width: 45%;
-    cursor: pointer;
-    margin-top: 15px;
-}
-#enviar:hover{
-    cursor: pointer;
-    background-color: #112b75;
-}
+
 @media (max-width:768px){
     #titleVacina{
         text-align: center;
@@ -101,9 +81,6 @@ h2{
     .campos-formulario{
         font-size: min(22px, 3vw);
     }
-    #enviar{
-        width: 70%;
-        font-size: min(16px, 3vw);
-    }
+
 }
 `;
