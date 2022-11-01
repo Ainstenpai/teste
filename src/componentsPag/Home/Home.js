@@ -33,9 +33,9 @@ export default function Home(){
                 <div>
                     <ul className="textMontserrat">
                         <li>
-                            <Link to="/MiddlePage">
+                            <a href="/MiddlePage">
                                 Cadastro
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>
