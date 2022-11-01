@@ -18,11 +18,21 @@ export default function App(){
         <Navbar />
       </header>
       <main>
-        <Home />
-        <MiddlePag />
-        <Form />
-        <AposForm />
-        <FimForm /> 
+        <Routes>
+          <Route exact path="/" element={<Home />}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/MiddlePag" element={<MiddlePag />}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/Form" element={<Form />}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/AposForm" element={<AposForm />}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/FimForm" element={<FimForm />}/>
+        </Routes> 
       </main>
     </>
   )
