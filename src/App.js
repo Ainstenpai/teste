@@ -22,13 +22,13 @@ export default function App(){
           <Route exact path="/" element={<Home />}/>
         </Routes>
         <Routes>
-          <Route exact path="/MiddlePag" element={<MiddlePag />}/>
+          <Route  path="/MiddlePag" element={<MiddlePag />}/>
         </Routes>
         <Routes>
-          <Route exact path="/Form" element={<Form />}/>
+          <Route path="/Form" element={<Form />}/>
         </Routes>
         <Routes>
-          <Route exact path="/AposForm" element={<AposForm />}/>
+          <Route path="/AposForm" element={<AposForm />}/>
         </Routes>
         <Routes>
           <Route exact path="/FimForm" element={<FimForm />}/>
