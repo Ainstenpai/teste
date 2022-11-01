@@ -33,7 +33,7 @@ export default function Home(){
                 <div>
                     <ul className="textMontserrat">
                         <li>
-                            <a href="/MiddlePage">
+                            <a href="./MiddlePage">
                                 Cadastro
                             </a>
                         </li>
